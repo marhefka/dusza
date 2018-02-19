@@ -128,6 +128,7 @@ namespace Dusza2017_2018_Backup
             if (currentStateId < numberOfStates - 1)
             {
                 currentStateId++;
+                currentDir = "/";
             }
             else
             {
@@ -140,6 +141,7 @@ namespace Dusza2017_2018_Backup
             if (currentStateId > 0)
             {
                 currentStateId--;
+                currentDir = "/";
             }
             else
             {
